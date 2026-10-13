@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veloce Auto Exchange | Exotic, Supercar & Luxury Showroom</title>
+    <meta name="description" content="Cyprus premier luxury automotive exchange. Curated exotic supercars, verified provenance, escrow protection, and enclosed European delivery.">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container nav-wrap">
+            <a href="#" class="brand">
+                <span class="brand-badge">VELOCE</span>
+                <span class="brand-title">AUTO EXCHANGE</span>
+            </a>
+
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#inventory" class="nav-link">Inventory</a>
+                <a href="#services" class="nav-link">Consignment</a>
+                <a href="#delivery" class="nav-link">Global Logistics</a>
+                <a href="#reviews" class="nav-link">Testimonials</a>
+                <a href="#contact" class="nav-link">Showroom</a>
+                <a href="#" class="btn btn-accent open-modal">Book Private Viewing</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div>
+                    <div class="track-pill">
+                        <span class="material-symbols-outlined" style="font-size: 16px;">verified</span>
+                        Verified Exotic & Supercar Inventory • Escrow Protected
+                    </div>
+                    <h1 class="hero-h1">
+                        Curated Horsepower. <br>
+                        <span class="accent-text">Uncompromising</span> Provenance.
+                    </h1>
+                    <p class="hero-p">
+                        The Mediterranean's leading marketplace for rare supercars, bespoke luxury SUVs, and investment-grade collectors. Every vehicle undergoes a 180-point diagnostic inspection and laser chassis verification.
+                    </p>
+                    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                        <a href="#inventory" class="btn btn-accent">
+                            Browse Collection
+                            <span class="material-symbols-outlined" style="font-size: 1.1rem;">arrow_forward</span>
+                        </a>
+                        <a href="#" class="btn btn-outline open-modal">Sell / Consign Your Vehicle</a>
+                    </div>
+                </div>
+
+                <div class="hero-img-box">
+                    <img src="https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=1000" 
+                         alt="Porsche Supercar" class="hero-photo">
+                    
+                    <div class="float-spec">
+                        <div style="display: flex; align-items: center; gap: 0.75rem;">
+                            <div style="width: 38px; height: 38px; border-radius: 8px; background: rgba(229,169,60,0.2); color: var(--color-accent); display: flex; align-items: center; justify-content: center;">
+                                <span class="material-symbols-outlined">speed</span>
+                            </div>
+                            <div>
+                                <div style="font-weight: 800; font-size: 0.95rem; color: #FFFFFF;">2.7s 0-100 km/h</div>
+                                <div style="font-size: 0.75rem; color: var(--color-muted);">Porsche 911 GT3 RS Clubsport</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats-banner">
+        <div class="container">
+            <div class="stats-grid">
+                <div>
+                    <div class="stat-value">€45M+</div>
+                    <div class="stat-label">Inventory Transacted</div>
+                </div>
+                <div>
+                    <div class="stat-value">180-Pt</div>
+                    <div class="stat-label">Bespoke Technical Audit</div>
+                </div>
+                <div>
+                    <div class="stat-value">100%</div>
+                    <div class="stat-label">Enclosed White-Glove Transport</div>
+                </div>
+                <div>
+                    <div class="stat-value">14 Days</div>
+                    <div class="stat-label">Average Consignment Turnaround</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inventory Section -->
+    <section id="inventory" class="section">
+        <div class="container">
+            <div class="section-head" style="text-align: center; max-width: 700px; margin: 0 auto 3rem;">
+                <span style="color: var(--color-accent); font-weight: 800; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.15em; display: block; margin-bottom: 0.5rem;">Live Showroom</span>
+                <h2 style="font-family: var(--font-display); font-size: 2.8rem; font-weight: 900; color: white;">Featured Supercars & Classics</h2>
+            </div>
+
+            <!-- Filter Tabs -->
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">All Inventory</button>
+                <button class="filter-btn" data-filter="supercars">Supercars</button>
+                <button class="filter-btn" data-filter="suvs">Luxury SUVs</button>
+                <button class="filter-btn" data-filter="classics">Rare Classics</button>
+            </div>
+
+            <div class="cars-grid">
+                <!-- Car 1 -->
+                <div class="car-card" data-category="supercars">
+                    <img src="https://images.pexels.com/photos/337909/pexels-photo-337909.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                         alt="Ferrari 488 Pista" class="car-thumb">
+                    <div class="car-body">
+                        <div class="car-header">
+                            <h3 class="car-title">Ferrari 488 Pista</h3>
+                            <span class="car-year">2021</span>
+                        </div>
+                        <div class="car-price">€385,000</div>
+                        <div class="specs-grid">
+                            <div>
+                                <div class="spec-val">710 HP</div>
+                                <div class="spec-key">Power</div>
+                            </div>
+                            <div>
+                                <div class="spec-val">2.85s</div>
+                                <div class="spec-key">0-100</div>
+                            </div>
+                            <div>
+                                <div class="spec-val">4,200 km</div>
+                                <div class="spec-key">Mileage</div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-accent open-modal" style="width: 100%; justify-content: center;">Inquire Vehicle</a>
+                    </div>
+                </div>
+
+                <!-- Car 2 -->
+                <div class="car-card" data-category="suvs">
+                    <img src="https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                         alt="G63 AMG" class="car-thumb">
+                    <div class="car-body">
+                        <div class="car-header">
+                            <h3 class="car-title">Mercedes G63 AMG Magno</h3>
+                            <span class="car-year">2023</span>
+                        </div>
+                        <div class="car-price">€245,000</div>
+                        <div class="specs-grid">
+                            <div>
+                                <div class="spec-val">585 HP</div>
+                                <div class="spec-key">Twin-Turbo V8</div>
+                            </div>
+                            <div>
+                                <div class="spec-val">4.5s</div>
+                                <div class="spec-key">0-100</div>
+                            </div>
+                            <div>
+                                <div class="spec-val">8,100 km</div>
+                                <div class="spec-key">Mileage</div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-accent open-modal" style="width: 100%; justify-content: center;">Inquire Vehicle</a>
+                    </div>
+                </div>
+
+                <!-- Car 3 -->
+                <div class="car-card" data-category="classics">
+                    <img src="https://images.pexels.com/photos/119435/pexels-photo-119435.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                         alt="Classic Aston Martin" class="car-thumb">
+                    <div class="car-body">
+                        <div class="car-header">
+                            <h3 class="car-title">Porsche 911 Turbo (993)</h3>
+                            <span class="car-year">1996</span>
+                        </div>
+                        <div class="car-price">€195,000</div>
+                        <div class="specs-grid">
+                            <div>
+                                <div class="spec-val">408 HP</div>
+                                <div class="spec-key">Air-Cooled</div>
+                            </div>
+                            <div>
+                                <div class="spec-val">4.4s</div>
+                                <div class="spec-key">0-100</div>
+                            </div>
+                            <div>
+                                <div class="spec-val">48,500 km</div>
+                                <div class="spec-key">Verified</div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-accent open-modal" style="width: 100%; justify-content: center;">Inquire Vehicle</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section id="reviews" class="section" style="background: var(--color-surface); border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border);">
+        <div class="container">
+            <div class="section-head" style="text-align: center; max-width: 700px; margin: 0 auto 3.5rem;">
+                <span style="color: var(--color-accent); font-weight: 800; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.15em; display: block; margin-bottom: 0.5rem;">Client Stories</span>
+                <h2 style="font-family: var(--font-display); font-size: 2.8rem; font-weight: 900; color: white;">Transacted With Discretion</h2>
+            </div>
+
+            <div class="cars-grid">
+                <div class="car-card" style="padding: 2.25rem;">
+                    <div style="display: flex; gap: 2px; color: var(--color-accent); margin-bottom: 1.25rem;">
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                    </div>
+                    <p style="font-style: italic; color: #CBD5E1; line-height: 1.7; margin-bottom: 1.5rem;">
+                        "Purchased my GT3 RS through Veloce. The chassis telemetry and DME engine rev report were delivered within hours. Car was delivered in an enclosed trailer in mint condition."
+                    </p>
+                    <div style="font-weight: 800; color: white;">Constantine K.</div>
+                    <div style="font-size: 0.8rem; color: var(--color-muted);">Porsche Collector</div>
+                </div>
+
+                <div class="car-card" style="padding: 2.25rem;">
+                    <div style="display: flex; gap: 2px; color: var(--color-accent); margin-bottom: 1.25rem;">
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                    </div>
+                    <p style="font-style: italic; color: #CBD5E1; line-height: 1.7; margin-bottom: 1.5rem;">
+                        "Consigned my Ferrari 488 with them. They vetted serious high-net-worth buyers and closed the sale within 11 days at my target reserve price. Unmatched professionalism."
+                    </p>
+                    <div style="font-weight: 800; color: white;">Henrik Lindqvist</div>
+                    <div style="font-size: 0.8rem; color: var(--color-muted);">Private Client</div>
+                </div>
+
+                <div class="car-card" style="padding: 2.25rem;">
+                    <div style="display: flex; gap: 2px; color: var(--color-accent); margin-bottom: 1.25rem;">
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                    </div>
+                    <p style="font-style: italic; color: #CBD5E1; line-height: 1.7; margin-bottom: 1.5rem;">
+                        "The escrow handling and international title re-registration from Germany to Cyprus was 100% turnkey. The team knows the exotic car market inside and out."
+                    </p>
+                    <div style="font-weight: 800; color: white;">Andreas Savvides</div>
+                    <div style="font-size: 0.8rem; color: var(--color-muted);">Limassol Marina Resident</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div style="font-family: var(--font-display); font-size: 1.4rem; font-weight: 900; color: white; margin-bottom: 1rem;">
+                        VELOCE AUTO EXCHANGE
+                    </div>
+                    <p style="max-width: 320px; line-height: 1.7;">
+                        Curated supercar marketplace, bespoke consignment, and enclosed international transport logistics.
+                    </p>
+                </div>
+                <div>
+                    <h4 style="color: white; margin-bottom: 1rem;">Categories</h4>
+                    <p style="margin-bottom: 0.5rem;">Supercars & Hypercars</p>
+                    <p style="margin-bottom: 0.5rem;">Performance SUVs</p>
+                    <p style="margin-bottom: 0.5rem;">Air-Cooled Classics</p>
+                    <p style="margin-bottom: 0.5rem;">Track Specials</p>
+                </div>
+                <div>
+                    <h4 style="color: white; margin-bottom: 1rem;">Services</h4>
+                    <p style="margin-bottom: 0.5rem;">Private Consignment</p>
+                    <p style="margin-bottom: 0.5rem;">Enclosed Transport</p>
+                    <p style="margin-bottom: 0.5rem;">Escrow Settlement</p>
+                </div>
+                <div>
+                    <h4 style="color: white; margin-bottom: 1rem;">Showroom</h4>
+                    <p style="color: var(--color-accent); font-weight: 800; font-size: 1.1rem; margin-bottom: 0.5rem;">+357 25 800 911</p>
+                    <p style="font-size: 0.85rem; color: var(--color-muted);">Spyrou Kyprianou 110, Limassol, Cyprus</p>
+                </div>
+            </div>
+            <div style="text-align: center; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 2rem; font-size: 0.8rem;">
+                &copy; 2026 Veloce Auto Exchange. Licensed Automotive Broker.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Test Drive / Inquire Modal -->
+    <div class="modal-overlay" id="testDriveModal">
+        <div class="modal-box">
+            <button class="modal-close" id="closeModal">&times;</button>
+            <h3 style="font-family: var(--font-display); font-size: 1.6rem; color: white; margin-bottom: 0.5rem;">
+                Private Viewing / Consignment Inquiry
+            </h3>
+            <p style="color: var(--color-muted); font-size: 0.9rem; margin-bottom: 1.5rem;">
+                Connect with our automotive acquisition team for detailed vehicle dossiers.
+            </p>
+
+            <form id="driveForm">
+                <div class="form-group">
+                    <label class="form-label">Client Name</label>
+                    <input type="text" class="form-control" placeholder="Full Name" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Phone / WhatsApp</label>
+                    <input type="tel" class="form-control" placeholder="+357 99 000 000" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Inquiry Type</label>
+                    <select class="form-control" required>
+                        <option>Schedule Private Showroom Viewing</option>
+                        <option>Consign My Supercar / Free Valuation</option>
+                        <option>Request Build Sheet & Paint-Meter Report</option>
+                        <option>International Transport & Escrow Details</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-accent" style="width: 100%; justify-content: center; margin-top: 1rem;">
+                    Submit Confidential Inquiry
+                </button>
+            </form>
+
+            <div id="driveConfirm" style="display: none; text-align: center; padding: 2rem 0;">
+                <div style="width: 56px; height: 56px; border-radius: 50%; background: rgba(229,169,60,0.2); color: var(--color-accent); display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem;">
+                    <span class="material-symbols-outlined" style="font-size: 32px;">check</span>
+                </div>
+                <h4 style="font-family: var(--font-display); font-size: 1.4rem; color: white; margin-bottom: 0.5rem;">
+                    Inquiry Transmitted
+                </h4>
+                <p style="color: var(--color-muted); font-size: 0.9rem;">
+                    Our vehicle director will contact you via your preferred channel within 1 hour.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
